@@ -1,0 +1,26 @@
+<h1>Lista de tablets</h1>
+
+<table id="table">
+  <tr>
+    <th>Id</th>
+    <th>Modelo</th>
+    <th>Imei</th>
+    <th>Plaqueta</th>
+    <th>Botao</th>
+  </tr>
+
+  <tr *ngFor="let e of tablet">
+    <td>{{ e.tabletId }}</td>
+    <td>{{ e.modelo }}</td>
+    <td>{{ e.imei }}</td>
+    <td>{{ e.plaqueta }}</td>
+    <td>
+    <button (click)="editar(e.tabletId)">Editar</button>
+    <button (click)="deletar(e.tabletId)">deletar</button>
+  </td>
+  </tr>
+</table>
+
+<a routerLink='/pages/tablet-cadastrar'>Cadastrar</a>
+
+

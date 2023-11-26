@@ -1,0 +1,20 @@
+<h1>Atualizar tablet</h1>
+
+<form [formGroup]="tabletForm" (ngSubmit)="atualizar()">
+
+  <div>
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" formControlName="modelo" required>
+  </div>
+
+  <div>
+    <label for="modelo">imei:</label>
+    <input type="text" id="modelo" formControlName="imei" required>
+  </div>
+
+  <div>
+    <label for="modelo">Plaqueta:</label>
+    <input type="text" id="modelo" formControlName="plaqueta" required>
+  </div>
+  <button type="submit">Atualizar</button>
+</form>

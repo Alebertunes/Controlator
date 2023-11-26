@@ -1,0 +1,18 @@
+<h1>Cadastro de tablets</h1>
+
+<div>
+  <label for="modelo">Modelo</label>
+  <input type="text" id="modelo" nome="modelo" [(ngModel)]="modelo" required>
+</div>
+
+<div>
+  <label for="modelo">Imei</label>
+  <input type="text" id="imei" nome="imei" [(ngModel)]="imei" required>
+</div>
+
+<div>
+  <label for="modelo">Plaqueta</label>
+  <input type="text" id="plaqueta" nome="plaqueta" [(ngModel)]="plaqueta" required>
+</div>
+
+<button (click)="cadastrar()">Cadastrar</button>

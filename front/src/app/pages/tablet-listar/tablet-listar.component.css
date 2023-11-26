@@ -1,0 +1,50 @@
+/* seu-componente.component.css */
+
+/* Estilo para a tabela */
+#table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#table th, #table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#table th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para a tabela de cabeçalho */
+#table th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para as linhas alternadas da tabela */
+#table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilo para as células da tabela */
+td {
+  color: #333;
+}
+
+/* Estilo para o corpo da tabela */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ecf0f1;
+}
