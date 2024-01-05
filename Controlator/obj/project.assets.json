@@ -1743,19 +1743,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {}
+    "C:\\Users\\alexandre.bertunes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Área de Trabalho\\Api\\Controlator\\Controlator.csproj",
+      "projectUniqueName": "C:\\Users\\alexandre.bertunes\\Desktop\\Projeto\\Controlator\\Controlator\\Controlator.csproj",
       "projectName": "Controlator",
-      "projectPath": "C:\\Users\\alexa\\OneDrive\\Área de Trabalho\\Api\\Controlator\\Controlator.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\OneDrive\\Área de Trabalho\\Api\\Controlator\\obj\\",
+      "projectPath": "C:\\Users\\alexandre.bertunes\\Desktop\\Projeto\\Controlator\\Controlator\\Controlator.csproj",
+      "packagesPath": "C:\\Users\\alexandre.bertunes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexandre.bertunes\\Desktop\\Projeto\\Controlator\\Controlator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alexandre.bertunes\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1813,6 +1813,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1821,7 +1839,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
